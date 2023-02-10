@@ -69,4 +69,26 @@
 
 
     }
+
+
+}
+
+@media screen and (max-width:768px) {
+    .Navbar {
+
+        .nav-container {
+
+            .nav-center {
+                position: static;
+                transform: translateX(0);
+            }
+
+            .nav-left {
+
+                display: none;
+            }
+        }
+    }
+
+
 }

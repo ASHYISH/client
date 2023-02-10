@@ -26,3 +26,15 @@
 
 
 }
+
+@media screen and (max-width:768px) {
+    .Category {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .Category {
+        width: 100%;
+    }
+}

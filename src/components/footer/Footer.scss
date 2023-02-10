@@ -54,6 +54,7 @@
 
     .subfooter {
         flex-direction: column;
+        margin-top: 40px;
 
 
         .credit-card-img {
@@ -63,6 +64,16 @@
             img {
                 width: 100%;
             }
+        }
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .Footer {
+        .content {
+            flex-direction: column;
+            gap: 40px;
         }
     }
 }

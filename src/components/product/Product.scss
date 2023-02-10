@@ -48,3 +48,15 @@
         transform: scale(1);
     }
 }
+
+@media screen and (max-width:768px) {
+    .Product {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .Product {
+        width: 100%;
+    }
+}
