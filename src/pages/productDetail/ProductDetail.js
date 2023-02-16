@@ -9,14 +9,16 @@ function ProductDetail() {
       <div className="container">
         <div className="product-layout">
           <div className="product-img center">
-            <img src={dummyImg} alt="product img" />
+            <div className="img-container">
+              <img src={dummyImg} alt="product img" />
+            </div>
           </div>
           <div className="product-info">
             <h1 className="heading">Lorem ipsum dolor sit amet consectetur.</h1>
             <h3 className="price">455</h3>
             <p className="description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-              quis ullam dicta ab explicabo suscipit illum quae, impedit saepe
+              quis ullam dicta ab explicabo suscipit illum qu ae, impedit saepe
               ut voluptatem quod totam sunt natus alias optio. Odio mollitia
             </p>
 
