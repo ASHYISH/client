@@ -11,8 +11,8 @@ function Categories() {
   const [categoryId, setCategoryId] = useState("");
   const categoryList = [
     {
-      id: "comics",
-      value: "Comics",
+      id: "anime",
+      value: "Anime",
     },
     {
       id: "tv-shows",
