@@ -3,7 +3,11 @@ import "./CartItem.scss";
 import dummyCartImg from "../../assets/naruto.jpeg";
 import { AiOutlineClose } from "react-icons/ai";
 import { useDispatch } from "react-redux";
-import { addToCart, removeFromCart } from "../../redux/cartSlice";
+import {
+  addToCart,
+  closeButtonOfCart,
+  removeFromCart,
+} from "../../redux/cartSlice";
 
 function CartItem({ cart }) {
   const dispatch = useDispatch();
@@ -37,7 +41,7 @@ function CartItem({ cart }) {
           </p>
         </div>
         <div className="item-remove">
-          <AiOutlineClose />
+          <AiOutlineClose onClick={() => dispatch(closeButtonOfCart(cart))} />
         </div>
       </div>
     </div>
